@@ -27,13 +27,16 @@ background-color: #582812;
 #header{
     width: 100%;
     background-position: center;
+    border-radius: 10px;
 }
 .picture{
     margin-left: 50%;
     padding: 5px;
+    border-radius: 10px;
 }
 .text{
     padding-top: 10px;
+
 }
 #dragon{
 
