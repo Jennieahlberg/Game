@@ -1,0 +1,22 @@
+body{
+    background-color: #708A67;
+}
+.menu-bar{
+    width: 100%;
+    overflow: auto;
+    background-color: #708A67;
+}
+.menu-bar a:hover{
+background-color: #582812;
+}
+.menu-bar a {
+    float: left;
+    text-align: center;
+    width: 317px;
+    padding: 4px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    font-family: Gabriola;
+}
