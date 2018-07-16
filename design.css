@@ -1,25 +1,22 @@
 /*Less code*/
-@bgcolor: #708A67;
-
 body {
-    background-color: @bgcolor;
+  background-color: #708A67;
 }
 .section {
-    background-color: (darken(@bgcolor,10%));
+  background-color: #586d51;
 }
-
-
-
-
+.header {
+  width: 100%;
+  background-position: center;
+  border-radius: 10px;
+}
 /*CSS code*/
+/*body{
+    background-color: #708A67;
+}
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 10%;
-}
-.header{
-    width: 100%;
-    background-position: center;
-    border-radius: 10px;
 }
 .menu-bar{
     width: 100%;
@@ -53,3 +50,4 @@ background-color: #582812;
 #header{
     grid-area: header;
 }
+*/
