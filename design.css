@@ -18,7 +18,7 @@ p {
   overflow: hidden;
 }
 .menu-bar a:hover {
-  background-color: #582812;
+  color: #582812;
   transform: rotate(360deg);
 }
 .menu-bar a {
@@ -26,20 +26,26 @@ p {
   text-align: center;
   width: 16.5%;
   padding: 4px 0;
-  transition: all 0.3s ease;
+  transition: all 1s ease;
   color: white;
   font-size: 28px;
   text-decoration: none;
   font-family: Gabriola;
 }
-.picture {
-  margin-left: 50%;
-  padding: 5px;
-  border-radius: 10px;
-}
-.text {
-  padding-top: 10px;
-}
-#header {
+.item1 {
   grid-area: header;
+}
+.item2 {
+  grid-area: text;
+  margin-top: 40px;
+}
+.item3 {
+  grid-area: picture;
+  margin-top: 40px;
+}
+.grid-container {
+  padding: 10px;
+  grid-gap: 10px;
+  display: grid;
+  grid-template-areas: 'header header' 'text picture';
 }
